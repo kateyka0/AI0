@@ -1,0 +1,25 @@
+.sidebar {
+  width: 200px;
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  height: calc(100vh - 60px); /* Учитываем высоту шапки */
+  position: fixed;
+  top: 60px; /* Отступ для шапки */
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #007bff;
+}
