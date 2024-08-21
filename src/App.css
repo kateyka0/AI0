@@ -8,3 +8,11 @@ img {
   height: auto;
   display: block;
 }
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #f7f7f8;
+  font-family: Arial, sans-serif;
+}
